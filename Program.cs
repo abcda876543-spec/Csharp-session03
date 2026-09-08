@@ -19,7 +19,14 @@
             Console.WriteLine(myBook.Equals(myBook));
             Console.WriteLine(myBook.GetHashCode());
             Console.WriteLine(myBook.GetType());
-            #endregion 
+            #endregion
+
+
+            #region Question 3 
+            //it is a compile time error
+            int pages = 464;
+           
+            #endregion
         }
     }
 }
