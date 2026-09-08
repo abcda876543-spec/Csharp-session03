@@ -49,6 +49,13 @@
             Console.WriteLine(doublepage);
             #endregion
 
+            #region Question 6
+            double price = 49.99;
+            int x = (int)price;   // explicit casting
+            Console.WriteLine(x);
+
+            #endregion
+
         }
     }
 }
