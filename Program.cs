@@ -91,6 +91,19 @@
             Console.WriteLine(pagesString.GetType());
 
             #endregion
+
+            #region Question 10
+
+            int copies = 100;
+
+            object boxedCopies = copies;
+
+            int unboxedCopies = (int)boxedCopies;
+
+            Console.WriteLine(copies);
+            Console.WriteLine(unboxedCopies);
+
+            #endregion
         }
     }
 }
