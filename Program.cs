@@ -81,6 +81,16 @@
             }
 
             #endregion
+
+            #region Question 9
+
+            int pages9 = 464;
+            string pagesString = pages9.ToString();
+
+            Console.WriteLine(pagesString);
+            Console.WriteLine(pagesString.GetType());
+
+            #endregion
         }
     }
 }
