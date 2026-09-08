@@ -56,6 +56,12 @@
 
             #endregion
 
+            #region Question 7
+            string pagesText = "464";
+            int text = Convert.ToInt32(pagesText);
+            Console.WriteLine(text);
+            #endregion
+
         }
     }
 }
