@@ -43,6 +43,12 @@
                     }
             #endregion
 
+            #region Question 5 
+            int pages5 = 300;
+            double doublepage = pages5;
+            Console.WriteLine(doublepage);
+            #endregion
+
         }
     }
 }
